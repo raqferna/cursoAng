@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<title>Super Web</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/super.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+<div class="page">
+	<header>
+		<div class="header_logo">
+			<h1><a href="index.html" style="position: absolute; left: -9999px;">Super Web</a></h1>
+		</div>
+		<div class="header_nav">
+			<p class="header_search">
+				<input type="text" value="Buscar" style="vertical-align: top; height: 22px; margin: 0;
+				padding: 0; float: left; box-sizing: border-box; border-radius: 0.25rem 0 0 0.25rem;">
+				<button><img src="img/lupa.png"></button>
+			</p>
+			<nav>
+				<ul>
+					<li>Noticias</li>
+					<li>Opinión</li>
+					<li>Formación</li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</header>
+	<main>
+		<article>
+			<img src="img/esperpento.jpg">
+			<h2>Artículo muy interesante</h2>
+			<h3>Una interesante reflexión sobre el bien, el mal, el regular, el no tan bueno, Pablo Motos, Bertín Osborne y los chistes de Arévalo</h3>
+			<p>La Felguera, 17 de enero de 2019</p>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in mi efficitur, semper sem a, semper ipsum. Ut velit enim, tincidunt et tempus dapibus, dapibus sit amet justo. Mauris rhoncus est in ligula ultricies, non semper augue laoreet. Fusce vitae nunc sollicitudin, posuere quam at, luctus elit. Pellentesque eget venenatis quam, ut dictum tortor. Integer mollis quis est eu dignissim. Mauris rhoncus diam eu dui pharetra venenatis. Proin consectetur purus nisl, pellentesque congue eros facilisis quis. Cras ornare erat mauris, et sodales augue posuere id. Etiam ac pulvinar mi.</p>
+			<p>Vestibulum enim ligula, molestie vitae tristique quis, iaculis nec quam. Suspendisse id felis in lectus elementum auctor non at sapien. Nulla at sollicitudin dui, vitae eleifend est. Integer condimentum eros quis risus semper, vitae auctor quam porttitor. Duis orci nibh, posuere et lectus rutrum, blandit tristique turpis. Nunc vel nibh nec nisi lacinia lobortis. Nunc eu diam non mi rhoncus laoreet eget in arcu. Etiam lacinia non metus malesuada mattis. Suspendisse ornare ex id ultricies accumsan. Sed fermentum ac diam in egestas.</p>
+			<div class="opinion">
+				<p><strong>Opinión</strong></p>
+				<hr>
+				<img src="img/putin.jpg" style="width: 30%">
+				<img src="img/alf.jpg" style="width: 30%">
+				<img src="img/kung-fury.jpg" style="width: 30%">
+			</div>
+		</article>
+		<aside>
+			<div style="background-color: orange; color: white; padding: 0.75rem;">
+				Cuñaos por el mundo
+			</div>
+			<div style="border: 2px solid orange; overflow: auto; padding: 0.75rem;">
+				<img src="img/cuniao.jpg" style="float: left; margin-right: 0.75rem;">
+				<div style="padding-left: 0.75rem;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in mi efficitur, semper sem a, semper ipsum. Ut velit enim, tincidunt et tempus dapibus, dapibus sit amet justo.
+				</div>
+			</div>
+		</aside>
+		<aside>
+			<div style="background-color: orange; color: white; padding: 0.75rem;">
+				Cuñaos por el mundo
+			</div>
+			<div style="border: 2px solid orange; overflow: auto; padding: 0.75rem;">
+				<img src="img/cuniao.jpg" style="float: left; margin-right: 0.75rem;">
+				<div style="padding-left: 0.75rem;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in mi efficitur, semper sem a, semper ipsum. Ut velit enim, tincidunt et tempus dapibus, dapibus sit amet justo.
+				</div>
+			</div>
+		</aside>
+		<aside>
+			<div style="background-color: orange; color: white; padding: 0.75rem;">
+				Cuñaos por el mundo
+			</div>
+			<div style="border: 2px solid orange; overflow: auto; padding: 0.75rem;">
+				<img src="img/cuniao.jpg" style="float: left; margin-right: 0.75rem;">
+				<div style="padding-left: 0.75rem;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in mi efficitur, semper sem a, semper ipsum. Ut velit enim, tincidunt et tempus dapibus, dapibus sit amet justo.
+				</div>
+			</div>
+		</aside>
+		<aside>
+			<div style="background-color: orange; color: white; padding: 0.75rem;">
+				Cuñaos por el mundo
+			</div>
+			<div style="border: 2px solid orange; overflow: auto; padding: 0.75rem;">
+				<img src="img/cuniao.jpg" style="float: left; margin-right: 0.75rem;">
+				<div style="padding-left: 0.75rem;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in mi efficitur, semper sem a, semper ipsum. Ut velit enim, tincidunt et tempus dapibus, dapibus sit amet justo.
+				</div>
+			</div>
+		</aside>
+		<div class="clear"></div>
+	</main>
+	<footer>
+		<section class="left">
+			<p>Super Web es una marca registrada de Super Web Enterprises, Wisconsin, Alabama</p>
+			<p><em>Super Web. Calle Jon, 23, 902010, Valdecardos de Arriba</em></p>
+			<p>&copy; Super Web 2019</p>
+		</section>
+		<section class="media">
+			<p><a href="#">Mapa web</a> · <a href="#">Información legal</a> · <a href="#">Política de cookies</a></p>
+			<div class="media_button"><a href="" class="media_button_f"></a></div>
+			<div class="media_button"><a href="" class="media_button_t"></a></div>
+			<div class="media_button"><a href="" class="media_button_p"></a></div>
+			<div class="media_button"><a href="" class="media_button_g"></a></div>
+		</section>
+		<div class="clear"></div>
+	</footer>
+</div>
+</body>
+
+</html>
